@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/fonts/FoundersGrotesk-Semibold.woff2') format('woff2'),
+        url('/fonts/FoundersGrotesk-Semibold.woff') format('woff');
+    /* Add additional font formats if necessary */
+    font-weight: normal;
+    /* Adjust font-weight if necessary */
+    font-style: normal;
+    /* Adjust font-style if necessary */
+}
+
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+        url('/fonts/NeueMontreal-Regular.woff') format('woff');
+    /* Add additional font formats if necessary */
+    font-weight: normal;
+    /* Adjust font-weight if necessary */
+    font-style: normal;
+    /* Adjust font-style if necessary */
+}
+
+.start:hover {
+    .start {
+        background-color: white;
+    }
+
+    .icon-1 {
+        background-color: white;
+    }
+
+    cursor: pointer;
+}
